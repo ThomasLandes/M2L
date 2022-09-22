@@ -1,0 +1,399 @@
+body {
+    background: #ffffff;
+    font-family: 'Fredoka';
+    font-weight: 400;
+    height: 100vh;
+    background: no-repeat url(../IMG/faq.jpg);
+    background-position: bottom -75% right 50%;
+}
+
+h1 {
+    text-align: center;
+    color: midnightblue;
+    font-family: 'Raleway';
+}
+
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+/* NAV CSS */
+.nav_list {
+    display: inline;
+    color: white;
+}
+
+.nav_ul {
+    text-align: center;
+}
+
+.nav_container {
+    border: solid 1px;
+    width: 100%;
+    background-color: midnightblue;
+    position: sticky;
+}
+
+.nav_icon {
+    vertical-align: middle;
+}
+
+.left {
+    float: left;
+    margin-left: 5%;
+}
+
+.right {
+    float: right;
+    margin-right: 5%;
+}
+
+.title {
+    text-align: center;
+    color: white;
+    margin: 0 auto;
+    width: 20%;
+}
+/* NAV CSS END*/
+
+.container {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 700px;
+    height: 400px;
+    background: #f1f1f1;
+    border-radius: 2px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.container-onglets{
+    background: #f1f1f1;
+    width: 100%;
+    height: 15%;
+    display: flex;
+    border-bottom: 1px solid #333;
+}
+.onglets {
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    font-weight: 700;
+}
+.onglets:not(:nth-child(2)) {
+    border-right: 1px solid #333;
+}
+
+.contenu {
+    height: 70%;
+    width: 100%;
+    position: absolute;
+    text-align: left;
+}
+.contenu h3 {
+    padding: 20px;
+}
+.contenu hr {
+    width: 40%;
+    height: 2px;
+    margin-left: 20px;
+    background: #000;
+    border: none;
+}
+.contenu div {
+    padding: 20px;
+    text-align: left;
+}
+
+.container-onglets a{
+    background-color: midnightblue;
+    vertical-align: middle ;
+}
+
+
+.active {
+    background: midnightblue;
+    color: #f1f1f1;
+}
+.index {
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    padding: 10%;}
+
+
+    .login {
+        width: 500px;
+        margin: 16px auto;
+        font-size: 16px;
+      }
+      
+      .login p {
+        margin-top: 0;
+        margin-bottom: 0;
+      }
+      
+      .login-container {
+        background: #ebebeb;
+        padding: 12px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.15);
+      }
+      
+      .login p {
+        padding: 12px;
+      }
+      
+      .login input {
+        box-sizing: border-box;
+        display: block;
+        width: 100%;
+        border-width: 1px;
+        border-style: solid;
+        padding: 16px;
+        outline: 0;
+        font-family: inherit;
+        font-size: 0.95em;
+      }
+      
+      .login input[type="email"],
+      .login input[type="password"] {
+        background: #fff;
+        border-color: #bbb;
+        color: #555;
+      }
+      
+      .login input[type="email"]:focus,
+      .login input[type="password"]:focus {
+        border-color: #888;
+      }
+      
+      .login input[type="submit"] {
+        background: #28d;
+        border-color: transparent;
+        color: #fff;
+        cursor: pointer;
+      }
+      
+      .login input[type="submit"]:hover {
+        background: #17c;
+      }
+      
+      .login input[type="submit"]:focus {
+        border-color: #05a;
+      }
+
+      #mdp{
+          text-align: right;
+          font-size: smaller;
+      }
+      .changetype{
+        font-size: smaller;
+      }
+
+      .changetype p{
+text-align: center;
+      }
+
+    textarea{
+        width: 100%;
+        height: 100%;
+    }
+
+      /* MENU CODE*/
+.menu {
+    border: solid 2px white;
+    border-radius: 10px;
+    width: 20%;
+    float: right;
+    margin-right: 5%;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    background-color: lavender;
+    padding: 1vw;
+    position: relative;
+    top: 9vh;
+    font-family: 'Raleway';
+    font-weight: 800;
+}
+
+.elem_menu, .elem_menu a {
+    width: 90%;
+    margin: 0 auto;
+    background-color: lavender;
+    color: #F79F79;
+    font-size: 1.1em;
+}
+
+.question {
+    color: midnightblue;
+    font-weight: 500;
+}
+
+.button_slide {
+    color: #FFF;
+    border: 4px solid rgb(247, 159, 121);
+    border-radius: 10px;
+    padding: 18px 36px;
+    display: inline-block;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 white;
+    transition: ease-out 0.4s;
+    background-color: lavender;
+
+}
+
+.slide_right:hover {
+    box-shadow: inset 400px 0 0 0 rgba(25, 25, 112, 0.9);
+}
+
+.add_button {
+    text-decoration: none;
+    color: rgb(247, 159, 121);
+    font-weight: 800;
+    font-size: 1.3em;
+}
+
+.menu_header {
+    background-color: midnightblue;
+    color: white;
+    width: 100%;
+    text-align: center;
+    font-family: 'Fredoka';
+    font-size: 2em;
+    border-radius: 7px;
+    margin-bottom: 2vh;
+}
+
+.menu img {
+    vertical-align: middle;
+}
+
+/* MENU END CODE */
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+.modal-window {
+    position: fixed;
+    background-color: rgba(200, 200, 200, 0.75);
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 999;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s;
+  }
+  
+  .modal-window:target {
+    opacity: 1;
+    pointer-events: auto;
+  }
+  
+  .modal-window>div {
+    width: 500px;
+    position: relative;
+    margin: 10% auto;
+    padding: 2rem;
+    background: #fff;
+    color: #444;
+  }
+  
+  .modal-window header {
+    font-weight: bold;
+  }
+  
+  .modal-close {
+    color: #aaa;
+    line-height: 50px;
+    font-size: 80%;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 0;
+    width: 70px;
+    text-decoration: none;
+  }
+  
+  .modal-close:hover {
+    color: #000;
+  }
+  
+  .modal-window h1 {
+    font-size: 150%;
+    margin: 0 0 15px;
+    text-align: center;
+  }
+  
+  #open-modal input[type="submit"] {
+    background: #28d;
+    border-color: transparent;
+    color: #fff;
+    cursor: pointer;
+  margin: 0 auto;
+  }
+  
+  #open-modal input[type="submit"]:hover {
+    background: #17c;
+  }
+  
+  /* Buttons' focus effect */
+  #open-modal input[type="submit"]:focus {
+    border-color: #05a;
+  }
+  
+  #open-modal input {
+    box-sizing: border-box;
+    display: block;
+    width: 25%;
+    border-width: 1px;
+    border-style: solid;
+    padding: 10px;
+    outline: 0;
+    font-family: inherit;
+    font-size: 0.95em;
+  }
+
+  .login button {
+    background: #28d;
+    border-color: transparent;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .login button:hover {
+    background: #17c;
+  }
+  
+  .login button:focus {
+    border-color: #05a;
+  }
+
+  .login button {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    border-width: 1px;
+    border-style: solid;
+    padding: 16px;
+    outline: 0;
+    font-family: inherit;
+    font-size: 0.95em;
+  }
